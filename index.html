@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>freeCodeCamp Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <main>
+        <div class="form-section">
+            <form action="">
+                <fieldset>
+                    <label for="name">Name <input required type="text" id="name" name="name"></label>
+                    <label for="email">Email <input required type="email" id="email" name="email"></label>
+                    <label for="age">Age(Optional) <input type="number" id="age" name="age" min="13" max="40"></label>
+                    <label for="role">Which option best describes your current role?
+                        <select name="role" id="role">
+                            <option value="" disabled selected>Select current role</option>
+                            <option value="1">Student</option>
+                            <option value="2">Full time job</option>
+                            <option value="3">Full time learner</option>
+                            <option value="4">Prefer not to say</option>
+                            <option value="5">other</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="referrer">
+                        Would you recommend freeCodeCamp to a friend?</label>
+                    <label for="definitely"><input type="radio" id="definitely" name="referrer" checked>
+                        Definitely</label>
+                    <label for="maybe"><input type="radio" name="referrer" id="maybe"> Maybe</label>
+                    <label for="notsure"><input type="radio" name="referrer" id="notsure"> Not Sure</label>
+
+                    <label for="feature">What is your favorite feature of freeCodeCamp?
+                        <select name="feature" id="feature">
+                            <option value="">Select an option</option>
+                            <option value="1">Challenges</option>
+                            <option value="2">Projects</option>
+                            <option value="3">Community</option>
+                            <option value="4">Open source</option>
+                        </select>
+                    </label>
+                    <label for="like">
+                        What would you like to see improved? (Check all that apply)</label>
+                    <label for="Front-end"><input id="Front-end" type="checkbox"> Front-end Projects</label>
+                    <label for="Back-end"><input type="checkbox" id="Back-end"> Back-end Projects</label>
+                    <label for="datav"><input type="checkbox" id="datav"> Data Visualization</label>
+                    <label for="challenges"><input type="checkbox" id="challenges"> Challenges</label>
+                    <label for="opensource"><input type="checkbox" id="opensource"> Open Source Community</label>
+                    <label for="gitter"><input type="checkbox" id="gitter"> Gitter help rooms</label>
+                    <label for="video"><input type="checkbox" id="video"> Videos</label>
+                    <label for="city"><input type="checkbox" id="city"> City Meetups</label>
+                    <label for="wiki"><input type="checkbox" id="wiki"> Wiki</label>
+                    <label for="forum"><input type="checkbox" id="forum"> Forum</label>
+                    <label for="courses"><input type="checkbox" id="courses"> Additional Courses</label>
+
+                    <label for="comment">
+                        Any comments or suggestions?
+                        <textarea name="comment" id="comment" cols="30" rows="10"
+                            placeholder="Enter your comment here..."></textarea>
+                    </label>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

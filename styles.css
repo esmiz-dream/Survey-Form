@@ -1,0 +1,71 @@
+body {
+  width: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Tahoma";
+  background-image: url("jonatan-pie-3l3RwQdHRHg-unsplash.jpg");
+}
+header {
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+}
+
+fieldset {
+  border: none;
+   
+}
+
+.form-section {
+  width: 55%;
+  margin: 0 auto;
+  min-width: 300px;
+  background-color: rgba(40,39,70,0.92);
+  border:3px solid rgb(26, 26, 48) ;
+  color: white;
+  box-shadow: -10px -10px 40px 20px rgba(1, 39, 46, 0.9);
+}
+form {
+  width: 90% ;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+label,
+input,
+textarea, select {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+input {
+  min-height: 1.5rem;
+  margin-top: 2px;
+}
+label{
+    padding-bottom: 1em;
+}
+
+input[type="submit"]
+{
+    height: 30px;
+    font-size: medium;
+    background-color: #37af65;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    display: unset;
+    margin: unset;
+    width: unset;
+    vertical-align: middle;
+}
+
+select{
+    height: 30px;
+    margin-top: 15px;
+}
+
+option{
+    padding: 15px auto;
+    text-indent: 5px;
+}
